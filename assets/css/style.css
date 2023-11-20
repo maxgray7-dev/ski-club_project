@@ -8,20 +8,35 @@
     box-sizing: border-box;
 }
 
+/*General styles*/
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
-/*Generic styles*/
-
+h1, h2 {
+    font-family: "Russo One" "Mukta" sans-serif;
+}
 
 /*Header*/
 header{
     background-color: rgb(0, 0, 139);
-    color: white;
-    font-family: "Russo One" "Mukta" sans-serif;
-}
+    letter-spacing: 2px;
+    color: whitesmoke;
+    text-transform:uppercase; 
+  }
+  
+
+
+
+
 
 /*Main Content*/
 main {
     background: lightcyan;
+    flex: 1 0 auto;
+    
 }
 
 /*Footer*/
