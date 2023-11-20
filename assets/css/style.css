@@ -64,6 +64,7 @@ nav {
     display: none;
     top: 100%;
     justify-content: center;
+    
 }
 
 #nav-toggle:checked~nav {
@@ -77,6 +78,7 @@ nav {
 .nav-toggle-label {
     font-size: large;
     color: whitesmoke;
+    
 
 }
 
@@ -92,7 +94,12 @@ main {
 /*Footer*/
 footer {
     background-color: rgb(247, 102, 102); 
+    border: 2px solid black;
 }
+
+    #contacts {
+      
+    }
 
 
 
@@ -107,6 +114,10 @@ footer {
         box-shadow: none;
         width: fit-content; 
         padding-right: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
     }
     
     #menu {
