@@ -15,8 +15,10 @@ body{
     flex-direction: column;
 }
 
-#logo  {
+h1  {
     font-family: "Russo One" "Mukta" sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
     
 }
 
@@ -40,7 +42,7 @@ header a {
 nav {
     font-size: 100%;
     width: 100%;
-    space
+
 
 }
 

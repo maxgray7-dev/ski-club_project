@@ -1,6 +1,5 @@
-
-Ski and Snowboarding Project
-This is The Ski and Snowboard Club project. The goal of this project is to unite people with the similar interests. In particular, those who interested in skiining and snowboarding activities in French Alpes.
+# Ski Club Project
+The Ski Club project. The goal of this project is to unite people with the similar interests. In particular, those who interested in skiining and snowboarding activities in French Alpes.
 Joining the club has benefits such as: joining ski and snowboarding community, learning or improving skills, get best offers, meeting new friends and keep life active. This could help people to plan their next holidays, meet with friends, learn skiing and enjoy french mountains.
 
 ## Features
