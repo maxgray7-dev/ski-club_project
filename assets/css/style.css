@@ -43,17 +43,25 @@ header a {
     font-size: 100%;
     letter-spacing: 3px;
     list-style-type: none;
-
-
-
 }
 
+#menu li{
+    margin-bottom: 1em;
+}
 
-
+/*Navbar with dropdown toggle*/
+nav {
+    position: absolute;
+    background-image: linear-gradient(to bottom, #1926ae, #1822b3, #191eb8, #1a18bc, #1d11c1, #1b0dba, #1908b4, #1604ad, #0e059a, #070688, #020676, #000564);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px whitesmoke;
+}
 
 /*Main Content*/
 main {
-    background: lightcyan;
+    background: darkgray;
     flex: 1 0 auto;
     
 }
