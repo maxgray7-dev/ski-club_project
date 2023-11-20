@@ -24,7 +24,7 @@ h1  {
 
 /*Header*/
 header{
-    background-color: rgb(0, 0, 139);
+    background-image: linear-gradient(to bottom, #1926ae, #1822b3, #191eb8, #1a18bc, #1d11c1, #1b0dba, #1908b4, #1604ad, #0e059a, #070688, #020676, #000564);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -39,9 +39,11 @@ header a {
 
 }
 
-nav {
+#menu {
     font-size: 100%;
-    width: 100%;
+    letter-spacing: 3px;
+    list-style-type: none;
+
 
 
 }
