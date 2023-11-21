@@ -92,14 +92,60 @@ main {
 }
 
 /*Footer*/
+
 footer {
     background-color: rgb(247, 102, 102); 
     border: 2px solid black;
+    justify-content: space-evenly;
 }
 
-    #contacts {
-      
+.address {
+    text-align: center;
+    letter-spacing: 1px ;
+    font-size: large;
+    font-family: "PT Serif" sans-serif;
+
     }
+
+.get-ready-buttons {
+    text-align: center;
+    padding: 5px;
+    display: flex;
+}
+
+.button a {
+    
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 1px 5px;
+    font-size: 130%;
+    margin-top:10px;
+
+    }
+
+
+
+#social-networks {
+    text-align: center;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+    
+}
+
+#social-networks i {
+    font-size: 150%;
+    padding: 10px;
+    color: rgb(0, 0, 139);
+    text-align: center;
+    padding-left: 3px; 
+}
+#contacts h3 {
+    display: none;
+}
+
 
 
 
@@ -146,6 +192,32 @@ footer {
     
     
     /* Footer*/
+#contacts {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+#contacts>li>a {
+    padding: 3px;
+}
+
+#social-networks {
+    list-style-type: none;
+    order: 1;
+}
+
+.get-ready-buttons {
+    color: #ffffff;
+    justify-content: center;
+    justify-content: space-around;
+    order: 2;
+}
+
 
 }
 
