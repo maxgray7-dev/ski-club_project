@@ -137,7 +137,9 @@ main {
     height: 200px;
     border-radius: 50%;
     justify-content: center;
-    margin: 1rem;
+    margin: auto; /*align to center*/
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 
@@ -163,11 +165,22 @@ footer {
     }
 
 .get-ready-buttons {
-    width: 150px;
+    width: 200px;
     padding: 1px 40px;
     margin: auto;
     text-align: center;
     margin-top: 5px;
+
+}
+
+.button {
+    background-color: rgba(179, 237, 255, 0.9);
+    border-radius:5px;
+    background:transparent;
+    width:150px;
+    height: 30px;
+    font-size: large;
+    margin: 25px 0;
 
 }
 
@@ -181,10 +194,10 @@ footer {
     font-family: "Mukta", sans-serif;
 }
 
+.get-ready-buttons a:hover {
+    font-weight: 600;
+    color:green;
 
-.button {
-    background-color: rgba(179, 237, 255, 0.9);
-    border-radius:5px;
 
 }
 
@@ -203,6 +216,7 @@ footer {
     color: rgb(0, 0, 139);
     text-align: center;
     padding-left: 3px; 
+
 }
 
 #contacts {
