@@ -39,7 +39,7 @@ header{
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px black;
+    box-shadow: 0 2px 2px rgb(91, 226, 250);
     /* styling nav toggle */
     display: flex;
     justify-content:space-between;
@@ -125,7 +125,7 @@ main {
 
 
 .intro p {
-    font-family: "Oswald", "Mukta", sans-serif;
+    font-family: "PT Serif", "Oswald", sans-serif;
     text-align: justify;
     
 }
@@ -144,11 +144,12 @@ main {
 /*Footer*/
 
 footer {
+    font-family: "Oswald", sans-serif;
     padding: 15px;
     justify-content: space-evenly;
     border: 2px solid rgb(171, 226, 245);
-    background: url(/assets/images/tignes-footer.webp) no-repeat top center/cover;
-    padding-top: 1px;
+    background: url(/assets/images/tignes-footer.webp) no-repeat center/cover;
+    padding-top: 5px;
     position: relative;
 
 }
@@ -156,29 +157,30 @@ footer {
 .address {
     text-align: center;
     letter-spacing: 1px ;
-    font-weight: bold;
-    font-family: "PT Serif" sans-serif;
+    font-size: 150%;
     color: rgb(0, 0, 139);
-    margin-top: 15px;
+    margin-top: 2px;
     }
 
 .get-ready-buttons {
-    padding: 15px;
-    display: flex;
+    width: 150px;
+    padding: 1px 40px;
+    margin: auto;
     text-align: center;
-    justify-content: center;
-    margin-bottom:-15px;
+    margin-top: 5px;
 
 }
 
 .button a {
     text-decoration: none;
     border-radius: 2px;
-    padding: 1px 5px;
-    font-size: 75%;
+    padding: 5px 5px;
+    font-size: 100%;
     margin-top: 10px;
     align-items: center;
+    font-family: "Mukta", sans-serif;
 }
+
 
 .button {
     background-color: rgba(179, 237, 255, 0.9);
@@ -238,8 +240,6 @@ background-color: rgba(239, 246, 50, 0.3);
     #menu > li {
         padding-left: 1rem;
         text-align: center;
-
-
     }
     
 
@@ -248,12 +248,28 @@ background-color: rgba(239, 246, 50, 0.3);
     }
 
     /* Main Content*/
+
     main {
         margin-top: 76px;
     }
+
     #cover-text {
         font-size: 200%;
         width: 50%;
+    }
+
+    .intro {
+        padding: 25px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        
+    }
+    
+    
+
+    #smile-image {
+    margin: auto; /* moves the picture to center*/
+    margin-bottom: 2rem;
     }
 
 
@@ -278,44 +294,23 @@ background-color: rgba(239, 246, 50, 0.3);
     order: 1;
 }
 
-.get-ready-buttons {
-    text-align: center;
-    padding: 5px;
-    display: flex;
-
-}
-
-.button a {
-    text-decoration: none;
-    border-radius: 2px;
-    padding: 1px 5px;
-    font-size: 75%;
-    margin-top: 10px;
-    align-items: center;
-}
-
-}
-
 /*Media screen query for screens 992px and up*/
 @media screen and (min-width: 992px) {
 
-/*Header*/
+    /*Header*/
 
-#menu a:hover {
+    #menu a:hover {
     border-bottom: 2px solid whitesmoke;
-}
+    }
 
-#menu > li {
+    #menu > li {
     padding-left: 8rem;
-}
+    }
 
-/* Main Content*/
-main {
+    /* Main Content*/
+    main {
     margin-top: 56px;
-}
-
-/* Footer*/
-
+    }
 
 
 }
