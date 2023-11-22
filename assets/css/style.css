@@ -60,7 +60,7 @@ header a {
 }
 
 #menu li{
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 /*Navbar with dropdown toggle*/
@@ -120,7 +120,7 @@ main {
     padding: 10px 25px;
     background-image: linear-gradient(to right top, #c8cad6, #c5bfdb, #ccb2d9, #d8a2d1, #e791bf, #e881b7, #e871af, #e85fa6, #d550b4, #b847c4, #8e47d5, #3d4ce5);
     margin-top: 0;
-    margin-bottom: -16px;
+    margin-bottom: 0px;
 }
 
 
@@ -142,6 +142,9 @@ main {
     margin-top: 1rem;
 }
 
+#intro {
+    border: 3px solid navy;
+}
 
 /*Footer*/
 
@@ -149,8 +152,7 @@ footer {
     font-family: "Oswald", sans-serif;
     padding: 15px;
     justify-content: space-evenly;
-    border: 2px solid rgb(171, 226, 245);
-    background: url(/assets/images/tignes-footer.webp) no-repeat center/cover;
+    background: url("/assets/images/tignes-footer.webp") no-repeat center/cover;
     padding-top: 5px;
     position: relative;
 
