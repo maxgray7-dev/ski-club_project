@@ -100,7 +100,7 @@ main {
 
 /*Family section*/
 #family {
-   height:600px;
+   height:800px;
    width: 100%;
    background: url(/assets/images/family.webp) no-repeat center/cover;
    position: relative;
@@ -117,16 +117,17 @@ main {
 #intro {
     margin: 20px auto;
     width: 100%;
-    padding: 0 2%;
-    text-align: justify;
+    padding: 10px 25px;
     background-image: linear-gradient(to right top, #c8cad6, #c5bfdb, #ccb2d9, #d8a2d1, #e791bf, #e881b7, #e871af, #e85fa6, #d550b4, #b847c4, #8e47d5, #3d4ce5);
+    margin-top: 0;
+    margin-bottom: -16px;
 }
 
-#intro p {
+
+.intro p {
     font-family: "Oswald", "Mukta", sans-serif;
-    padding: 5px 2px;
-    width: 90%;
-    text-align: center;
+    text-align: justify;
+    
 }
 
 
@@ -135,13 +136,8 @@ main {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 5px 30px;
-
-
-   
-
-
-
+    justify-content: center;
+    margin: 1rem;
 }
 
 
