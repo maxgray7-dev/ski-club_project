@@ -166,6 +166,7 @@ main {
 
     #services h3 {
     color: yellow;
+    font-size: 20px;
     }
 
     .cover-services div {
@@ -192,11 +193,16 @@ main {
         font-size:small;
         text-align: center;
         color:white;
+        font-family: "Mukta", sans-serif;
+        
         
     }
 
     #lessons li, #additional-services li {
         list-style-type: none;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 1px;
     }
 
 
