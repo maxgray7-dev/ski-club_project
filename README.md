@@ -4,3 +4,8 @@ Joining the club has benefits such as: joining ski and snowboarding community, l
 
 ## Features
 -__Navigation Bar__
+
+
+
+imgbb.com
+![Color Palette ](https://i.ibb.co/tHWzDJg/my-screenshots-2023-11-22-at-20-19-17.png)
