@@ -118,7 +118,7 @@ main {
     margin: 20px auto;
     width: 100%;
     padding: 10px 25px;
-    background-image: linear-gradient(to right top, #c8cad6, #c5bfdb, #ccb2d9, #d8a2d1, #e791bf, #e881b7, #e871af, #e85fa6, #d550b4, #b847c4, #8e47d5, #3d4ce5);
+    background-image: radial-gradient(circle, #fffdfe, #fff0f8, #fee4f2, #fdd7ec, #fbcae6, #f4caef, #e9caf7, #dcccff, #c3daff, #b2e7ff, #aff1ff, #bbf8f4);
     margin-top: 0;
     margin-bottom: 0px;
 }
@@ -143,8 +143,15 @@ main {
 }
 
     /*Gallery Page */
+
+    #gallery {
+        background-image: radial-gradient(circle, #fffdfe, #fff0f8, #fee4f2, #fdd7ec, #fbcae6, #f4caef, #e9caf7, #dcccff, #c3daff, #b2e7ff, #aff1ff, #bbf8f4);
+    }
+
     #photos img {
         width:100%;
+        line-height: 2rem;
+    
     } 
 
 /*Footer*/
@@ -289,6 +296,12 @@ footer {
     margin-bottom: 2rem;
     }
 
+    /* Gallery page*/
+    #photos {
+        column-count: 2;
+        column-gap: 5px;
+
+    }
 
     
     /* Footer*/
@@ -348,6 +361,10 @@ height: 40px;
     main {
     margin-top: 56px;
     }
+
+
+
+    /*Footer*/
 
 
 }
