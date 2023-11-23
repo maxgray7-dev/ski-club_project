@@ -118,9 +118,9 @@ main {
     margin: 20px auto;
     width: 100%;
     padding: 10px 25px;
-    background-image: radial-gradient(circle, #fffdfe, #fff0f8, #fee4f2, #fdd7ec, #fbcae6, #f4caef, #e9caf7, #dcccff, #c3daff, #b2e7ff, #aff1ff, #bbf8f4);
     margin-top: 0;
     margin-bottom: 0px;
+
 }
 
 
@@ -143,13 +143,20 @@ main {
 
     /*services Page*/
 
+    main {
+        background: url
+    }
+
+    main h2, main h3 {
+        color: rgba(0, 0, 139, 0.8)
+    }
 
     #services {
         height: 600px;
         width: 100%; 
         background: url(/assets/images/ski-shop.webp) no-repeat center/cover;
         position: relative;
-        margin-bottom: -5px;
+        margin-bottom: -7px;
         
     }
 
@@ -160,14 +167,17 @@ main {
     .cover-services div {
         position: absolute;
         background-color: rgba(0, 0, 139, 0.5);
-        padding: 20px;
         line-height: 25px;
     }
 
+    #services #lessons {
+        top: 25px;
+        width: 100%;
+    }
+
     #services #additional-services {
-        bottom: 5px;
-
-
+        bottom: 25px;
+        width: 100%;
     }
 
 
@@ -210,6 +220,7 @@ footer {
 
 #contacts {
     background-color: rgba(239, 246, 250, 0.4);
+    width: 100%;
 
 }
 
