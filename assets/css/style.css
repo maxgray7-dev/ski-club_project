@@ -100,7 +100,7 @@ main {
 
 /*Family section*/
 #family {
-   height:800px;
+   height:500px;
    width: 100%;
    background: url(/assets/images/family.webp) no-repeat center/cover;
    position: relative;
@@ -130,7 +130,6 @@ main {
     
 }
 
-
 #smile-image {
     background: url(/assets/images/smile-image.webp) no-repeat center/cover;
     width: 200px;
@@ -141,6 +140,49 @@ main {
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+
+    /*services Page*/
+
+
+    #services {
+        height: 600px;
+        width: 100%; 
+        background: url(/assets/images/ski-shop.webp) no-repeat center/cover;
+        position: relative;
+        margin-bottom: -5px;
+        
+    }
+
+    #services h3 {
+    color: yellow;
+    }
+
+    .cover-services div {
+        position: absolute;
+        background-color: rgba(0, 0, 139, 0.5);
+        padding: 20px;
+        line-height: 25px;
+    }
+
+    #services #additional-services {
+        bottom: 5px;
+
+
+    }
+
+
+    #services div {
+        margin:2px 0;
+        font-size:small;
+        text-align: center;
+        color:white;
+        
+    }
+
+    #lessons li, #additional-services li {
+        list-style-type: none;
+    }
+
 
     /*Gallery Page */
 
