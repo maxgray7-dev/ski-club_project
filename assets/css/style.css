@@ -142,6 +142,11 @@ main {
     margin-top: 1rem;
 }
 
+    /*Gallery Page */
+    #photos img {
+        width:100%;
+    } 
+
 /*Footer*/
 
 footer {
