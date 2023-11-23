@@ -225,7 +225,11 @@ footer {
 #contacts {
     background-color: rgba(239, 246, 250, 0.4);
     width: 100%;
+}
 
+#contacts div {
+    width: 100%;
+    margin: 2px;
 }
 
 #contacts h3 {
@@ -242,10 +246,9 @@ footer {
     }
 
 .get-ready-buttons {
-    width: 200px;
-    padding: 1px 30px;
+    text-align: center;
     margin: auto;
-    margin-top: 5px;
+    
 
 }
 
@@ -253,20 +256,16 @@ footer {
     background-color: rgba(179, 237, 255, 0.9);
     border-radius:5px;
     background:transparent;
-    width:150px;
-    height: 30px;
+    width: 150px;
+    height: 30px; /* Button height*/
     font-size: large;
-    margin: 25px 0;
+    margin: 2px;
 
 }
 
 .button a {
     text-decoration: none;
     border-radius: 2px;
-    padding: 5px 5px;
-    font-size: 100%;
-    margin-top: 10px;
-    align-items: center;
     font-family: "Mukta", sans-serif;
 }
 
@@ -360,21 +359,24 @@ footer {
 
     
     /* Footer*/
-#contacts {
-    display: flex;
-    flex-direction: row;
-    padding: 10px 30px;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-top: 15px;
+    #contacts {
+        display: flex;
+        flex-direction: row;
+        padding: 10px 30px;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 15px;
 
+    }
+    #contacts li {
+        list-style-type: none;
     }
 
     .button {
         background-color: rgb(231, 141, 245, .5);
         border-color: rgba(241, 225, 0, 0.5);
         border-width: 6px;
-        width: 160px;
+        width: 200px;
         height: 40px;
 
     }
@@ -420,6 +422,10 @@ footer {
 
 
     /*Footer*/
+
+    .get-ready-buttons {
+      padding-top:25px;  
+    }
 
 
 }
