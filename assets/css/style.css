@@ -120,15 +120,22 @@ main {
     padding: 10px 25px;
     margin-top: 0;
     margin-bottom: 0px;
-
+    font-family: "PT Serif", "Oswald", sans-serif;
+    text-align: center;
 }
 
+#intro li {
+    list-style-type: none;
+    font-size: larger;
+    text-underline-offset: 3px;
+    color:rgb(226, 128, 145);
+}
 
 .intro p {
-    font-family: "PT Serif", "Oswald", sans-serif;
     text-align: justify;
     
 }
+
 
 #smile-image {
     background: url(/assets/images/smile-image.webp) no-repeat center/cover;
@@ -139,7 +146,8 @@ main {
     margin: auto; /*align to center*/
     margin-bottom: 1rem;
     margin-top: 1rem;
-}
+} 
+
 
     /*services Page*/
 
@@ -210,12 +218,9 @@ main {
 
 footer {
     font-family: "Oswald", sans-serif;
-    padding: 15px;
     justify-content: space-evenly;
     background: url("/assets/images/tignes-footer.webp") no-repeat center/cover;
-    padding-top: 1px 0;
     position: relative;
-
 }
 
 #contacts {
@@ -239,9 +244,8 @@ footer {
 
 .get-ready-buttons {
     width: 200px;
-    padding: 1px 40px;
+    padding: 1px 30px;
     margin: auto;
-    text-align: center;
     margin-top: 5px;
 
 }
