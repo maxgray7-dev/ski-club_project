@@ -211,6 +211,11 @@ main {
         line-height: 2rem;
     }
 
+    /* Become a Member Page*/
+    #member-form {
+        background: url(../images/rest-time.webp) no-repeat right center/cover;
+    }
+
 /*Footer*/
 
 footer {
