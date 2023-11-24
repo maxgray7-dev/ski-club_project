@@ -151,11 +151,11 @@ main {
     /*Services Page*/
 
 
-    main {
+    #services {
         height: 700px;
         width: 100%; 
         background: url(../images/ski-shop.webp) no-repeat center/cover;
-        
+         
     }
     #services h2 {
         color: yellow;
@@ -209,8 +209,7 @@ main {
     #photos img {
         width:100%;
         line-height: 2rem;
-    
-    } 
+    }
 
 /*Footer*/
 
@@ -219,6 +218,7 @@ footer {
     justify-content: space-evenly;
     background: url(../images/tignes-footer.webp) no-repeat center/cover;
     position: relative;
+
 }
 
 #contacts {
