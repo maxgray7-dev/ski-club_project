@@ -1,170 +1,157 @@
 # Ski Club Project
+
+![Ski Club Logo](https://i.ibb.co/58mtcYX/ski-club.png)
+
+## Description
+
 The Ski Club project is designed to unite people with the similar interests. In particular, those who interested in skiining or snowboarding activities. Ski club arranges trips for members for specific dates.
 Members of club can benefit from good prices on trips, meet with ski and snowboarding community, learning or improving skills, limited offers, making new friends and keep their life active. This could help people to plan their next holidays, discover new locations, and take an advanate of fully organised trips. View the live project [here](https://maxgray7-dev.github.io/ski-club_project/).
 
-
 ## Features
+
+### Existing Features
+
 -__Navigation Bar__
 
-Navigation bar allows users to navigate between 4 different options. 
-It can take users to About Us (Home), Services, Gallery, and to sign up for membership.
-- About Us page provides the information about why people should join the club, list of benefits and dates next trip planned.
-- Services page shows variety of benefits that people would het if they join club.
-- Gallery Page brings the user on the page with photos othat illustrate and shows experience that user can benefit by joining the club.
-- Become a member. This page provides a simple form for a user that he can fill up to provide the information to the club about himself. It includes: name, surname, email and their interest (ski, snowboard, or both).
+![Nav Bar](https://i.ibb.co/8KLgwVs/Navigation-bar.png")
+
+Navigation bar allows users to navigate between 4 different options of the project.
+It takes users to the pages: About Us, Services, Gallery, and Become a member.
+
+- "About Us" provides users information what is the value of joining the ski club club, list of benefits and dates for the next trips.
+- "Services" page shows variety of benefits that people would het if they join club.
+- "Gallery" Page brings the user on the page with photos othat illustrate and shows experience that user can benefit by joining the club.
+- "Become a member" page provides a simple form for a user to complete. This is essential but simple information for the club about the user that interested to join. It includes: name, surname, email and their interest: ski, snowboard, or both. After completing the page the club can contact and reach the person who showed the interest.
 
 
 
-***********************************************************************
-
-_________________________________________________________________
-# Mo Bros
-
-by Mighty Mustachios
-![Mo Bros LOGO](https://i.ibb.co/6R8Zp54/image.png)
-
-### Description
-
-Mo Bros is an empowering app designed to support men on their mental health journey. With a range of features, including meditations, fitness routines for mind and body, and social goals, it offers a holistic approach to mental well-being. Track your progress, access resources, and connect with peers. Whether it’s managing stress, building resilience, or seeking inspiration, Mo Bros is your partner for a healthier, happier you. Join us in breaking down barriers and prioritizing men’s mental health, one step at a time.
-View the live project [here](https://mo-bros-275496d6be44.herokuapp.com/).
-Responsive Mockup:
-![Responsive Mockup]()
-
-## Table of Contents
-
-- [User Experience (UX)](#user-experience)
-- [Planning](#planning)
-- [Features](#features)
-- [Tecnologies used](#technologies-used)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Credits](#credits)
-
-## User Experience
-
-### Ideal user
-
-- Professionals who are busy and want an app with quick and effective suggestions for various simple activities.
-- Anyone who would like to set simple routine for daily exercises to keep their day more or less active.
 
 
-#### User stories
-
-- As a busy professional man, I want the app to offer quick and effective stress-relief techniques that I can easily incorporate into my daily routine.
-- As a man interested in fitness, I want the app to provide workouts and exercises specifically designed to improve my mental health alongside physical fitness.
-- As someone struggling with feelings of isolation, I want the app to suggest ideas for social activities.
-- As someone looking to build emotional resilience, I want the app to provide exercises recommended by mental health professionals to help me develop coping strategies.
-- As a person in need of daily motivation, I want the app to offer inspirational content or stories that can uplift and encourage me in my mental health journey.
-
-### What the user might expect
-
-1. Intuitive Navigation: Users can expect a user-friendly interface with straightforward navigation, making it easy to explore different features and activities related to men’s mental health.
-2. Diverse Activity Options: The app offers a wide range of activities catering to various aspects of mental health—stress management, resilience building, inspiration, and more—ensuring there’s something suitable for every user’s needs.
-3. Personalization and Progress Tracking: Users can personalize their mental health journey by setting goals and tracking their progress over time. This feature helps individuals stay motivated and focused on their well-being objectives.
-4. Community Engagement: Expect a vibrant and supportive community space where users can engage in discussions, share experiences, and support each other anonymously. The community feeds foster a sense of connection and solidarity.
-5. Resources and Insights: The app provides curated resources, insights, and professional advice to equip users with the tools and knowledge necessary for their mental health improvement.
-
-### As developers, we expect:
-
-1. Continuous Improvement: We’re committed to consistently enhancing the app based on user feedback and emerging best practices in mental health and technology. Regular updates will refine existing features and introduce new functionalities.
-2. Optimized Performance: Our focus is on ensuring the app runs smoothly and efficiently across various devices and platforms, providing a seamless user experience.
-2. Community Growth and Support: We aim to nurture and expand the app’s community, fostering a safe and welcoming environment for discussions on men’s mental health.
-3. Data Security and Privacy: We prioritize user data security and privacy, implementing robust measures to safeguard personal information shared within the app.
-4. Collaboration and Innovation: We’re open to collaboration and partnerships that can further enrich the app’s offerings, staying at the forefront of innovation in the field of men’s mental health.
-
-## Planning
 
 
-### Flowchart
-
-![Draft flowchart](https://i.ibb.co/Vv7yP68/my-screenshots-2023-11-24-at-08-21-42.png)
-
-## Existing Features
-
-The app includes several key features that address different aspects of men’s mental health and well-being.
-These existing features are designed to provide a comprehensive and holistic approach to men’s mental health concerns. They offer resources, activities, and a supportive community within the app.
-
-### Homepage
-
-The homepage serves as the central hub, offering quick access to various sections of the app. It provides an overview of available features and serves as a starting point for users.
-
-### Activity Selection Page
-
-A dedicated section where users can explore and select a range of different social, mental, and physical health activities. It offers diverse options for managing stress, building resilience, finding inspiration, and more.
-
-### User Page
-
-Personalized user profiles allow users to track their progress and engage with app features tailored to their needs. Includes features for setting and managing personal mental health goals.
-
-### Community Feeds Page
-
-A community-centric space where users can share their activities and achievements. A sense of belonging encourages men to share their mental health.It It motivates people to set higher goals and achieve it.
-
-## Technologies used
-
-- HTML5
-- JavaSctipt
-- CSS3
-- [Python](https://www.python.org)
-- [Heroku: Cloud Application Platform](https://dashboard.heroku.com/apps) was used for the deployment.
-- [PEP8](http://pep8online.com/) was used to check the code for PEP8 requirements.
-- [Code Beautify - Python Beautifier](https://codebeautify.org/python-formatter-beautifier) was used to format the code.
-- [Heroku: Cloud Application Platform](https://dashboard.heroku.com/apps) was [used for the deployment.
-- [Git](https://git-scm.com/) was used for version control to commit to Git and Push to GitHub.
-- [GitHub](https://github.com/) was used as the repository for the project after being pushed from Git.
-- [Lucidchart](https://www.lucidchart.com/pages/) was used to create a draft flowchart during the planning process.
-- [ImgBB](https://imgbb.com/) was used to upload images and extract the source code.
-- [Am I Responsive?](http://ami.responsivedesign.is) was used to generate the mockup of the website.
-
-## Modules imported
+___________________________________________________________________________________
 
 
+
+
+
+                                EXAMPLE BELOW
+
+
+
+- __The landing page image__
+
+  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+
+![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+
+- __Club Ethos Section__
+
+  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
+  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+
+![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+
+- __Meetup Times section__
+
+  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
+  - This section will be updated as these times change to keep the user up to date.
+
+![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+
+- __The Footer__
+
+  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
+  - The footer is valuable to the user as it encourages them to keep connected via social media
+
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+
+- __Gallery__
+
+  - The gallery will provide the user with supporting images to see what the meet ups look like.
+  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+- __The Sign Up Page__
+
+  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+
+![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+
+For some/all of your features, you may choose to reference the specific project files that implement them.
+
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
+### Features Left to Implement
+
+- Another feature idea
 
 ## Testing
-Testing was completed manually.To achieve this was used next techniques:
-  - opening the app in different browsers,
-  - checked ap works with different media queries, like mobile phones,  ipads, laptop and bigger screens.
-  - clicked on navigation buttons and checked there was no issues.
-  - visually no mistakes and typos noticed.
-  
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+### Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+### Unfixed Bugs
+
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
 
-Heroku was used to deploy the site. Here are the steps to deploy:
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
-1. Log in to Heroku.
-2. Click “Create a new app”.
-3. Choose the app name and region.
-4. Click “Create app”.
-5. Navigate to the “settings” tab.
-6. “Click “Reveal Config Vars”.
-7. Add a configuration variable to Heroku’s Settings. The key is PORT and the value is 8000
-8. Scroll down to “Buildpacks”.
-9. Click “Add Buildpack”.
-10. First, add “python” and click save.
-11. Second, add “nodejs” and click save.
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-### Cloning
-
-1. Click the “Code” button in the GitHub repository.
-2. Choose “HTTPS” and copy the URL.
-3. Open the Terminam (in macOS) or Git Bash (in Windows) and navigate to the repository where you would like to locate the cloned repository.
-4. Type “git clone” followed by the copied URL.
-5. Press enter to create the clone.
-
-### Forking
-
-You can fork this project and make a copy of the original repository in your own GitHub account. In this case, you can view or make changes without affecting the original. To do so:
-
-- log into GitHub and locate the GitHub Repository;
-- at the top right of the screen, click the Fork button.
-It should be noted that all changes pushed to the main branch are automatically reflected on the site.
+The live link can be found here - <https://code-institute-org.github.io/love-running-2.0/index.html>
 
 ## Credits
-Logo was taken from - <https://www.pngaaa.com/detail/706134
-The wireframes were created using Figma.
 
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
+You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 ### Content
 
+- The text for the Home page was taken from Wikipedia Article A
+- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the home and sign up page are from This Open Source site
+- The images used for the gallery page were taken from this other open source site
+
+Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+
+## Other General Project Advice
+
+Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
+
+- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message
+  - Make sure to keep the messages in the imperative mood
+
+- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
+  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
+
+- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
+  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
+  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
