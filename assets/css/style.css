@@ -1,40 +1,52 @@
 /*  Google Font import: Russo One, PT Serif, Mukta, Oswald */
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Russo+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Russo+One&display=swap");
 
 /* Using  Asterisk selector to overwrite browser default rules*/
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 /*General styles*/
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-h1  {
+h1 {
     font-family: "Russo One", "Mukta", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    
 }
-h2, h3 {
-   font-family: "Mukta", sans-serif; 
-   color:rgb(0, 0, 139);
-   letter-spacing: 0.5px;
-   width: 100%;
-   min-height: 20px;
-   padding: 5px 1rem;
-   text-align:center;
 
+h2,
+h3 {
+    font-family: "Mukta", sans-serif;
+    color: rgb(0, 0, 139);
+    letter-spacing: 0.5px;
+    width: 100%;
+    min-height: 20px;
+    padding: 5px 1rem;
+    text-align: center;
 }
 
 /*Header*/
-header{
-    background-image: linear-gradient(to bottom, #1926ae, #1822b3, #191eb8, #1a18bc, #1d11c1, #1b0dba, #1908b4, #1604ad, #0e059a, #070688, #020676, #000564);
+header {
+    background-image: linear-gradient(to bottom,
+            #1926ae,
+            #1822b3,
+            #191eb8,
+            #1a18bc,
+            #1d11c1,
+            #1b0dba,
+            #1908b4,
+            #1604ad,
+            #0e059a,
+            #070688,
+            #020676,
+            #000564);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -42,15 +54,13 @@ header{
     box-shadow: 0 2px 2px rgb(91, 226, 250);
     /* styling nav toggle */
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: baseline;
-    
-  }
+}
 
 header a {
     text-decoration: none;
     color: whitesmoke;
-
 }
 
 #menu {
@@ -59,14 +69,26 @@ header a {
     list-style-type: none;
 }
 
-#menu li{
+#menu li {
     margin-bottom: 1rem;
 }
 
 /*Navbar with dropdown toggle*/
 nav {
     position: absolute;
-    background-image: linear-gradient(to bottom, #1926ae, #1822b3, #191eb8, #1a18bc, #1d11c1, #1b0dba, #1908b4, #1604ad, #0e059a, #070688, #020676, #000564);
+    background-image: linear-gradient(to bottom,
+            #1926ae,
+            #1822b3,
+            #191eb8,
+            #1a18bc,
+            #1d11c1,
+            #1b0dba,
+            #1908b4,
+            #1604ad,
+            #0e059a,
+            #070688,
+            #020676,
+            #000564);
     width: 100%;
     left: 0;
     padding: 0.5rem 1rem;
@@ -74,7 +96,6 @@ nav {
     display: none;
     top: 100%;
     justify-content: center;
-    
 }
 
 #nav-toggle:checked~nav {
@@ -88,29 +109,27 @@ nav {
 .nav-toggle-label {
     font-size: large;
     color: whitesmoke;
-    
 }
 
 /*Main Content*/
 main {
     flex: 1 0 auto;
-    margin-top: 40px;  
-    
+    margin-top: 40px;
 }
 
 /*Family section*/
 #family {
-   height:500px;
-   width: 100%;
-   background: url(../images/family.webp) no-repeat center/cover;
-   position: relative;
+    height: 500px;
+    width: 100%;
+    background: url(../images/family.webp) no-repeat center/cover;
+    position: relative;
 }
 
 #cover-text {
-   background-color: rgba(241, 225, 0, 0.7);
-   position: absolute;
-   bottom: 3rem;
-   width: 100%;  
+    background-color: rgba(241, 225, 0, 0.7);
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
 }
 
 /* Intro section */
@@ -128,13 +147,12 @@ main {
     list-style-type: none;
     font-size: larger;
     text-underline-offset: 3px;
-    color:rgb(226, 128, 145);
+    color: rgb(226, 128, 145);
 }
 
 .intro p {
-    text-align: justify;   
+    text-align: justify;
 }
-
 
 #smile-image {
     background: url(../images/smile-image.webp) no-repeat center/cover;
@@ -142,79 +160,87 @@ main {
     height: 200px;
     border-radius: 50%;
     justify-content: center;
-    margin: auto; /*align to center*/
+    margin: auto;
+    /*align to center*/
     margin-bottom: 1rem;
     margin-top: 1rem;
-} 
+}
 
+/*Services Page*/
 
-    /*Services Page*/
+#services {
+    height: 700px;
+    width: 100%;
+    background: url(../images/ski-shop.webp) no-repeat center/cover;
+}
 
+#services h2 {
+    color: yellow;
+    font-size: 25px;
+}
 
-    #services {
-        height: 700px;
-        width: 100%; 
-        background: url(../images/ski-shop.webp) no-repeat center/cover;
-         
-    }
-    #services h2 {
-        color: yellow;
-        font-size: 25px;
-        }
+#services h3 {
+    color: yellow;
+    font-size: 20px;
+}
 
-    #services h3 {
-        color: yellow;
-        font-size: 20px;
-    }
+.cover-services div {
+    background-color: rgba(0, 0, 139, 0.5);
+    border-radius: 10px;
+}
 
-    .cover-services div {
-        background-color: rgba(0, 0, 139, 0.5);
-        border-radius: 10px;
-     
-    }
+#services #lessons {
+    top: 8rem;
+}
 
-    #services #lessons {
-        top: 8rem;   
-    }
+#services #additional-services {
+    bottom: 25px;
+}
 
-    #services #additional-services {
-        bottom: 25px;  
-    }
+#services div {
+    font-size: small;
+    text-align: center;
+    color: white;
+    font-family: "Mukta", sans-serif;
+    width: 100%;
+    margin: 2rem 0;
+}
 
+#lessons li,
+#additional-services li {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
 
-    #services div {
-        font-size:small;
-        text-align: center;
-        color:white;
-        font-family: "Mukta", sans-serif;
-        width: 100%;
-        margin: 2rem 0;
+/*Gallery Page */
 
-    }
+#gallery {
+    background-image: radial-gradient(circle,
+            #fffdfe,
+            #fff0f8,
+            #fee4f2,
+            #fdd7ec,
+            #fbcae6,
+            #f4caef,
+            #e9caf7,
+            #dcccff,
+            #c3daff,
+            #b2e7ff,
+            #aff1ff,
+            #bbf8f4);
+}
 
-    #lessons li, #additional-services li {
-        list-style-type: none;
-        font-size: 14px;
-        font-weight: bold;
-        letter-spacing: 1px;
-    }
+#photos img {
+    width: 100%;
+    line-height: 2rem;
+}
 
-
-    /*Gallery Page */
-
-    #gallery {
-        background-image: radial-gradient(circle, #fffdfe, #fff0f8, #fee4f2, #fdd7ec, #fbcae6, #f4caef, #e9caf7, #dcccff, #c3daff, #b2e7ff, #aff1ff, #bbf8f4);
-    }
-
-    #photos img {
-        width:100%;
-        line-height: 2rem;
-    }
-
-    /* Become a Member Page*/
-    #member-form {
-        background: url(../images/rest-time.webp) no-repeat right center/cover;
-    }
+/* Become a Member Page*/
+#member-form {
+    background: url(../images/friends.webp) no-repeat center/cover;
+}
 
 /*Footer*/
 
@@ -223,7 +249,6 @@ footer {
     justify-content: space-evenly;
     background: url(../images/tignes-footer.webp) no-repeat center/cover;
     position: relative;
-
 }
 
 #contacts {
@@ -234,54 +259,49 @@ footer {
 #contacts div {
     width: 100%;
     margin: 2px;
-
 }
 
 #contacts h3 {
     display: none;
 }
 
-
 .address {
     text-align: center;
-    letter-spacing: 1px ;
+    letter-spacing: 1px;
     font-size: 150%;
     color: rgb(0, 0, 139);
     margin-top: 2px;
-    }
+}
 
-    .address li {
-     list-style-type: none;
-    }
+.address li {
+    list-style-type: none;
+}
 
 .get-ready-buttons {
     text-align: center;
     margin: auto;
-    
 }
 
 .button {
     background-color: rgba(179, 237, 255, 0.9);
-    border-radius:5px;
-    background:transparent;
+    border-radius: 5px;
+    background: transparent;
     width: 150px;
-    height: 30px; /* Button height*/
+    height: 30px;
+    /* Button height*/
     font-size: large;
     margin: 2px;
-
 }
 
 .button a {
     text-decoration: none;
     border-radius: 2px;
     font-family: "Russo One", "Mukta", sans-serif;
-    
 }
 
 .get-ready-buttons a:hover {
     font-weight: 600;
-    color:green;
-
+    color: green;
 }
 
 #social-networks {
@@ -290,7 +310,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-
 }
 
 #social-networks i {
@@ -298,37 +317,34 @@ footer {
     padding: 10px;
     color: rgb(0, 0, 139);
     text-align: center;
-    padding-left: 3px; 
-
+    padding-left: 3px;
 }
+
 /*Media screen query for screens 768px and up*/
 
 @media screen and (min-width: 768px) {
+    /*Header*/
 
-   /*Header*/
-   
     nav {
         display: block;
         position: relative;
         box-shadow: none;
-        width: fit-content; 
+        width: fit-content;
         padding-right: 1rem;
     }
 
     .nav-toggle-label {
         display: none;
     }
-    
+
     #menu {
         display: flex;
-    
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
         text-align: center;
     }
-    
 
     #logo {
         text-align: center;
@@ -352,7 +368,6 @@ footer {
         font-size: 160%;
     }
 
-
     #plan {
         display: flex;
         align-items: center;
@@ -362,20 +377,16 @@ footer {
 
     /* Services Page */
     #services {
-     height: 650px;
-     top: -5px;
+        height: 650px;
+        top: -5px;
     }
 
-
-    
     /* Gallery page*/
     #photos {
         column-count: 2;
         column-gap: 5px;
-
     }
 
-    
     /* Footer*/
     #contacts {
         display: flex;
@@ -384,8 +395,8 @@ footer {
         justify-content: space-evenly;
         text-align: center;
         margin-top: 15px;
-
     }
+
     #contacts li {
         list-style-type: none;
     }
@@ -395,60 +406,50 @@ footer {
     }
 
     .button {
-        background-color: rgb(231, 141, 245, .5);
+        background-color: rgb(231, 141, 245, 0.5);
         border-color: rgba(241, 225, 0, 0.5);
         border-width: 6px;
         width: 200px;
         height: 40px;
-        
-
     }
 
     #contacts a {
         padding: 5px;
     }
 
-
     #social-networks {
         list-style-type: none;
         order: 1;
-    
     }
 
     #social-networks i {
         justify-content: center;
         font-size: 300%;
         padding: 5%;
-        margin-left: 20px;   
+        margin-left: 20px;
     }
-
 }
 
 /*Media screen query for screens 992px and up*/
 @media screen and (min-width: 992px) {
-
     /*Header*/
 
     #menu a:hover {
-    border-bottom: 2px solid whitesmoke;
+        border-bottom: 2px solid whitesmoke;
     }
 
-    #menu > li {
-    padding-left: 8rem;
+    #menu>li {
+        padding-left: 8rem;
     }
 
     /* Main Content*/
     main {
-    margin-top: 56px;
+        margin-top: 56px;
     }
-
-
 
     /*Footer*/
 
     .get-ready-buttons {
-      padding-top:25px;  
+        padding-top: 25px;
     }
-
-
 }
