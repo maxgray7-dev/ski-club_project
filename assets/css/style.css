@@ -169,24 +169,34 @@ main {
 
 /*Services Page*/
 
+#services-image {
+    background: url(../images/tignes_off_piste.webp) no-repeat center/cover;
+    height: 500px;
+    width: 100%
+
+}
+
 #services {
-    height: 700px;
+    height: 500%;
     width: 100%;
-    background: url(../images/ski-shop.webp) no-repeat center/cover;
+  
+    position: relative;
 }
 
-#services h2 {
-    color: yellow;
+#head-div {
+    padding:0;
+    margin:0;
+}
+
+#services h2, #services h3 {
+    color: Navy;
     font-size: 25px;
+    padding: 1px;
+   
 }
 
-#services h3 {
-    color: yellow;
-    font-size: 20px;
-}
-
-.cover-services div {
-    background-color: rgba(0, 0, 139, 0.5);
+.cover-services {
+    background-color: rgba(0, 0, 139, 0.4);
     border-radius: 10px;
 }
 
@@ -204,7 +214,7 @@ main {
     color: white;
     font-family: "Mukta", sans-serif;
     width: 100%;
-    margin: 2rem 0;
+    margin: 8px 0;
 }
 
 #lessons li,
