@@ -398,9 +398,11 @@ footer {
     #services {
         width: 600px;
         height: 400px;
+        margin: 4rem 6rem 6rem 12rem; /* changes style of blocks with info in the center */
 
-
+   
     }
+ 
 
     #head-div {
         justify-content: center;
