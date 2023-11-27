@@ -172,31 +172,30 @@ main {
 #services-image {
     background: url(../images/tignes_off_piste.webp) no-repeat center/cover;
     height: 500px;
-    width: 100%
-
+    width: 100%;
 }
 
 #services {
     height: 500%;
-    width: 100%;
-  
     position: relative;
+    margin: 2rem 3rem 5rem 5rem; /* styled services content in the centre for screens 768px and up;*/
 }
 
 #head-div {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
-#services h2, #services h3 {
+#services h2,
+#services h3 {
     color: Navy;
     font-size: 25px;
     padding: 1px;
-   
+
 }
 
 .cover-services {
-    background-color: rgba(0, 0, 139, 0.4);
+    background-color: rgba(0, 0, 139, 0.6);
     border-radius: 10px;
 }
 
@@ -205,7 +204,7 @@ main {
 }
 
 #services #additional-services {
-    bottom: 25px;
+    bottom: 5rem;
 }
 
 #services div {
@@ -267,12 +266,13 @@ footer {
 }
 
 #contacts {
-    background-color: rgba(239, 246, 250, 0.4);
+    background-color: rgba(239, 246, 250, 0.7);
     width: 100%;
+    max-height: 155px;
 }
 
 #contacts div {
-    width: 100%;
+    
     margin: 2px;
 }
 
@@ -368,7 +368,7 @@ footer {
     /* Main Content*/
 
     main {
-        margin-top: 76px;
+        margin-top: 77px;
     }
 
     #cover-text {
@@ -391,10 +391,33 @@ footer {
     }
 
     /* Services Page */
-    #services {
-        height: 650px;
-        top: -5px;
+    header {
+        box-shadow: none;
     }
+
+    #services {
+        width: 600px;
+        height: 400px;
+
+
+    }
+
+    #head-div {
+        justify-content: center;
+        margin: 15px 20px;
+
+    }
+
+    #service-image {
+        margin-top: -18px;
+    }
+
+    #lessons li, #additional-services li {
+        font-size: 16px;
+    
+    }
+
+
 
     /* Gallery page*/
     #photos {
@@ -410,6 +433,7 @@ footer {
         justify-content: space-evenly;
         text-align: center;
         margin-top: 15px;
+        
     }
 
     #contacts li {
