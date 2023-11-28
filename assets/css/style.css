@@ -476,12 +476,8 @@ footer {
     /*Header*/
 
     nav {
-        font-size: 130%;
+        font-size: 120%;
 
-    }
-
-    #menu a:hover {
-        border-bottom: 2px solid whitesmoke;
     }
 
     #menu>li {
@@ -494,7 +490,7 @@ footer {
     }
 
     #family {
-        margin-top: 118px; 
+        margin-top: 75px;
     }
 
     /*Footer*/
