@@ -178,7 +178,8 @@ main {
 #services {
     height: 500%;
     position: relative;
-    margin: 2rem 3rem 5rem 5rem; /* styled services content in the centre for screens 768px and up;*/
+    margin: 2rem 3rem 5rem 5rem;
+    /* styled services content in the centre for screens 768px and up;*/
 }
 
 #head-div {
@@ -272,7 +273,7 @@ footer {
 }
 
 #contacts div {
-    
+
     margin: 2px;
 }
 
@@ -398,11 +399,10 @@ footer {
     #services {
         width: 600px;
         height: 400px;
-        margin: 4rem 6rem 6rem 12rem; /* changes style of blocks with info in the center */
+        margin: 4rem 6rem 6rem 12rem;
+        /* changes style of blocks with info in the center */
 
-   
     }
- 
 
     #head-div {
         justify-content: center;
@@ -414,12 +414,11 @@ footer {
         margin-top: -18px;
     }
 
-    #lessons li, #additional-services li {
+    #lessons li,
+    #additional-services li {
         font-size: 16px;
-    
+
     }
-
-
 
     /* Gallery page*/
     #photos {
@@ -435,7 +434,7 @@ footer {
         justify-content: space-evenly;
         text-align: center;
         margin-top: 15px;
-        
+
     }
 
     #contacts li {
@@ -492,6 +491,10 @@ footer {
     /* Main Content*/
     main {
         margin-top: 56px;
+    }
+
+    #family {
+        margin-top: 118px; 
     }
 
     /*Footer*/
