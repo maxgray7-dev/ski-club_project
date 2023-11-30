@@ -178,7 +178,7 @@ main {
 #services {
     height: 500%;
     position: relative;
-    background: url(../images/snow.webp) no-repeat center/cover;
+    background: url(../images/snow_bg.webp) no-repeat center/cover;
    
     /* styled services content in the centre for screens 768px and up;*/
 }
@@ -491,6 +491,20 @@ footer {
         column-count: 2;
         column-gap: 5px;
     }
+
+
+    /*Become a member page*/
+    #signup {
+        display: flex;
+        background-position: center;
+        position: relative;
+        margin-top: 18px;
+        font-size: large;
+
+    
+    
+    }
+
 
     /* Footer*/
     #contacts {
