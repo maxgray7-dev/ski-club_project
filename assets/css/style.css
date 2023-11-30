@@ -463,17 +463,19 @@ footer {
     }
 
     #services {
-        width: 600px;
-        height: 400px;
-        margin: 4rem 6rem 6rem 12rem;
-        /* changes style of blocks with info in the center */
+        padding: 3px;
 
     }
 
     #head-div {
         justify-content: center;
-        margin: 15px 20px;
+        margin-bottom: 7px;
 
+    }
+
+    #head-div div {
+        width: 70%;
+        margin: 25px 25px;
     }
 
     #service-image {
@@ -571,6 +573,13 @@ footer {
 
     #family {
         margin-top: 69px;
+    }
+
+
+    /*Services page*/
+    .services {
+        height: 900px;
+
     }
 
     /*Footer*/
