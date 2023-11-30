@@ -62,7 +62,6 @@ As to imagine the project visually, I used the Balsamiq wireframe software to bu
 
 
 
-
 #### "About US" Page
 
 
