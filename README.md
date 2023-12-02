@@ -52,7 +52,7 @@ The idea was taken from the Tignes [Logo](https://i.ibb.co/8dFH4b4/Tignes-Logo.p
 ### Wireframes 
 As to imagine the project visually, I used the Balsamiq wireframe software to build simple framework.
 
- Here would be attached frames :
+ Here are attached frames :
  
  ![About us](https://i.ibb.co/CQQ6qYr/About-Us.png)
  ![Services](https://i.ibb.co/b7jY7RB/Services.png)

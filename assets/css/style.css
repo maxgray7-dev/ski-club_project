@@ -555,6 +555,7 @@ footer {
     
     #family {
         margin-top: -19px;
+        height: 800px;
     }
 
 }
@@ -569,6 +570,7 @@ footer {
     /*Header*/
     #family {
     height: 900px;
+    background-size: cover;
     }
     
 
