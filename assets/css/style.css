@@ -567,13 +567,15 @@ footer {
 @media screen and (min-width: 992px) {
 
     /*Header*/
-
-
+    #family {
+    height: 900px;
+    }
+    
 
  
     /* Main Content*/
     main {
-        margin-top: 12px;
+        margin-top: -18px;
     }
 
 
