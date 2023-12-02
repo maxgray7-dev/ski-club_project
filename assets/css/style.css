@@ -115,7 +115,7 @@ nav {
 /*Main Content*/
 main {
     flex: 1 0 auto;
-    margin-top: 40px;
+    
 }
 
 /*Family section*/
@@ -176,7 +176,7 @@ main {
 }
 
 #services {
-    height: 500%;
+    display: flex;
     position: relative;
     background: url(../images/snow_bg.webp) no-repeat center/cover;
    
@@ -434,10 +434,7 @@ footer {
 
     /* Main Content*/
 
-    main {
-        margin-top: 77px;
-    }
-
+   
     #cover-text {
         font-size: 200%;
         width: 50%;
@@ -465,17 +462,18 @@ footer {
     #services {
         padding: 3px;
 
+
     }
 
     #head-div {
-        justify-content: center;
         margin-bottom: 7px;
 
     }
 
     #head-div div {
         width: 70%;
-        margin: 25px 25px;
+        margin: 5px 8rem;
+
     }
 
     #service-image {
@@ -551,28 +549,31 @@ footer {
         margin-left: 20px;
     }
 }
+@media screen and (min-width: 809px) {
+ 
+    /*Main*/
+    
+    #family {
+        margin-top: -19px;
+    }
+
+}
+
+
+
+
 
 /*Media screen query for screens 992px and up*/
 @media screen and (min-width: 992px) {
 
     /*Header*/
 
-    nav {
-        font-size: 120%;
 
-    }
 
-    #menu>li {
-        padding-left: 8rem;
-    }
-
+ 
     /* Main Content*/
     main {
         margin-top: 56px;
-    }
-
-    #family {
-        margin-top: 69px;
     }
 
 
@@ -580,6 +581,38 @@ footer {
     .services {
         height: 900px;
 
+    }
+
+    #head-div .cover-services {
+        width: 500px;
+        height: 15rem;
+        margin-top: 10rem;
+    }
+
+    #services #lessons {
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        margin-top: 5rem;
+    
+    }
+
+
+    #additional-services {
+        margin-bottom: 2px;
+
+    }
+
+    #lessons li {
+        padding-top: 10px;
+    }
+    
+    #services #additional-services {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
     }
 
     /*Footer*/
