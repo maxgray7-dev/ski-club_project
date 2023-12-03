@@ -126,6 +126,8 @@ Footer should be visible on the each page and includes The Ski Club details, soc
 In the current project were used next technologies and apps: 
 - Github [link](https://github.com/)
 - Codeanywhere [link](https://app.codeanywhere.com/)
+- HTML5
+- CSS3
 - Google fonts [link](https://fonts.google.com/)
 - Font awesome website [link](https://fontawesome.com/)
 - My Color Space [link](https://mycolor.space/?hex=%238057C7&sub=1)
