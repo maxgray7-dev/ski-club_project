@@ -326,7 +326,7 @@ margin-top: 3rem;
 }
 
 .join-button:hover {
-    border: 3px bold black;
+    border: 3px black;
     font-weight: bold;
     color: navy;
     
@@ -458,7 +458,6 @@ footer {
 
     .intro {
         padding: 5px;
-        font-weight: 900px;
         letter-spacing: 2px;
         font-size: 160%;
     }
