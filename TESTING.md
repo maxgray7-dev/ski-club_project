@@ -36,5 +36,6 @@ On the first Pages Validator showed next errors :
    Solution: Trailing Slash removal. <br>
 2. Error **h3** element not allowed as a child element of **ul** ![Error 2](https://i.ibb.co/7KV65qp/Error-2.png) 
     Solution: Moved **h3** element up before **ul** element. <br>
-3. 
-   
+3. Error - The element **a** placed incorrectly in **button** element.[Error 3](https://i.ibb.co/K9fnHyJ/error-3.png)
+   Solution: Updated code, and placed **button** inside anchor element. <br>
+4. 
