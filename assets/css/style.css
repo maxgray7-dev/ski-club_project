@@ -431,6 +431,11 @@ footer {
         padding-right: 1rem;
     }
 
+    #menu li a:hover {
+        color:  yellow;
+        border: 2px solid gray;
+    }
+
     .nav-toggle-label {
         display: none;
     }
@@ -439,7 +444,7 @@ footer {
         display: flex;
     }
 
-    #menu>li {
+    #menu >li {
         padding-left: 1rem;
         text-align: center;
     }

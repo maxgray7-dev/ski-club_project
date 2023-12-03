@@ -141,12 +141,19 @@ In the current project were used next technologies and apps:
 
 # Testing
 
-Testing information can be found [here](TESTING.md)
+Testing was completed. All information regarding test can be found in TESTING.md file - [here](TESTING.md)
 
+# Deployments
 
+Current Project was developed by using [codeanywhere](https://app.codeanywhere.com/) tool and stored in [github](https://github.com/).
+It was uploaded from GitHub Pages by following next steps:
 
-
-
+1. In the GitHub navigate to **repositories**.
+2. From repositories pick name of the project to deploy.
+3. On the top of the page , navigate to the **Settings** Option.
+4. From the left site, appear list of options - click on **Pages**
+5. After 
+6. 
 
 
 

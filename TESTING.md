@@ -78,3 +78,27 @@ Solution: errors were deleted. <br>
 As a result CSS code did not show any further errors.<br>
 
 
+## Manual Testing
+
+| To be tested | Test Action                                                        | Expected Outcome                                   | Test Outcome
+---------------|---------------------------------------------------------|----------------------------------------------------|--------------------
+| Logo         | Navigate to the SKI CLUB Logo                           |Pressing on the logo must take user to the main page - "About US"                                                              | Pass         |
+| Navbar       | Navigate to the 'three dots' icon (on devices) or About Us, Services, Gallery, Become a member (on larger screens) in the header on the right. | Navigation bar shouldn't dissapear or change.                                                                                                      | Pass         |
+|              |            Navigation Bar should always stay ont the top of the page                                                                            | It must always give access to pages : about Us, Services, Gallery or becomea member.                                                                | Pass         |
+|              |                                                                                                                       | The text should be colored and occur in a gray box when hovered over in navbar, on creens 768px and higher;                                             | Pass         |
+| Footer       | Navigate to the footer on the bottom of the page                                                                  | The footer shows address, weather button, livecam button and four buttons for social networks,                                                                                    | Pass         | 
+Buttons Weather or Livecam    |  Navigate to the button Weather or LiveCam      |Pressing a button must open a new window with the weather in Tignes or live camera with view in Mountains.   | Pass 
+|              |                                                                                                                       | Clicking on the icons, should take a user to social media profiles in a new tab.                                                                | Pass        
+|               |Hovering over buttons weather or livecam | This should change color on buttons to green.|  Pass
+| Family image   | Family Picture located under the navigation bar            |Family picture appears on all devices, it should be visible and responsive                                                                                         | Pass         |
+| About Us    | About us is a home page and it should provide information under the picture.                        | Text should be aligned, easy to read, enough spaces, and with the picture in the shape of circle below on the right side.          | Pass         ||
+| Services | Navigate to the Services page by clicking on the navbar menu.       | The Information should appear in the centre of the page under the picture with a skier. This page should be responsible on all devices and blocks with information move to centre.                          | Pass         |
+| Gallery        | Navigate to the Gallery page on the navbar menu.    | The Gallery page should provide pictures in a column which should become a 2 columns after screen size becomes 768px and up.                                                                                         | Pass         |
+|    Become a member          | Navigate to become a member page     | On this page can be found a form to be completed with 3 fields and radio buttons. To send the form all 3 Pages should be completed.   |Pass         | |                                                                                                                       | Please Fill out this field" must appear in case if Name or Surname fields were skipped.                                           | Pass         |
+|              |                                                                                                                       | Please include an email address @ in this field message should appear if no email adress was given.                                | Pass         |
+
+
+## Browsers were tested:  
+- Google Chrome: Version 119.0.6045.200 (Official Build) (64-bit)
+- Microsoft Edge;  Version 119.0.2151.93 (Official build) (64-bit)
+- Firefox: Version 120.0.1 (64-bit)
