@@ -108,11 +108,17 @@ It takes users to the pages: About Us, Services, Gallery, and Become a member.
 - Information will bne shared with the SKI CLUB and they email users with desision and further instructions.
 
 
-
 ### Future improvements left to implement
 
+- The current project has many options tor further development.
+- It could be useful to add the map of Tignes.
+- Could be benefitial to add a section with feedback and reccomendations.
+- 
 
+# Testing
 
+Project funcrionality testing:
+- 
 
 
 
