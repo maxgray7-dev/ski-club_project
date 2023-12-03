@@ -4,8 +4,8 @@
 
 ## Description
 
-The Ski Club project has a purpose to unite people with the similar interests. In particular, those who interested in skiining or snowboarding activities. Ski club arranges trips for members for specific dates to french Alpes.
-Members of club benefit from cheaper prices on trips, meet with ski and snowboarding community, learning/ improving skills, have access to limited offers, support in regards equipment,  make new friends,  and keep their life active. Additionally this help people to plan their next holidays, discover new locations, and take an advanate of fully organised trips. View the live project [here](https://maxgray7-dev.github.io/ski-club_project/).
+The Ski Club project has a purpose to unite people with the similar interests. In particular, those who interested in skiining or snowboarding activities. Ski club arranges trips for members for specific dates to french Alpes in groups. That brings more joy and reduces stress in planning and findinge new locations.
+Members of club benefit from cheaper prices on trips, meet with ski and snowboarding community, learning/ improving skills, have access to limited offers, support in regards of equipment,  make new friends,  and keep their life active. Additionally this helps people to plan their next holidays, discover new locations, and take an advanate of fully organised trips. View the live project [here](https://maxgray7-dev.github.io/ski-club_project/).
 
 ![Ski Club Site](https://i.ibb.co/Mnw11KC/am-i-responsive.png)
 
@@ -14,7 +14,8 @@ Members of club benefit from cheaper prices on trips, meet with ski and snowboar
 - [User Experience UX)](#user-experience)
 - [Planning and design](#planning)
 - [Features](#feautures)
-- [Testing] (#testing)
+- [Technologies](#technologies)
+- [Testing](#testing)
 - [Deployments](#deployments)
 - [Sources](#sources)
 
@@ -63,6 +64,8 @@ For better visual support, I used the Balsamiq wireframe software to build a sim
 
 ### Existing Features
 
+__Header__  On each page should be a header with a navigation buttons, that responsive and stays on the top of the page for users to be able navigate at anytime anfdfrom any page.
+
 __Navigation Bar__
 
 ![Nav Bar](https://i.ibb.co/8KLgwVs/Navigation-bar.png")
@@ -74,6 +77,10 @@ It takes users to the pages: About Us, Services, Gallery, and Become a member.
 - "Services" page shows variety of benefits that people would het if they join club.
 - "Gallery" Page brings the user on the page with photos othat illustrate and shows experience that user can benefit by joining the club.
 - "Become a member" page provides a simple form for a user to complete. This is essential but simple information for the club about the user that interested to join. It includes: name, surname, email and their interest: ski, snowboard, or both. After completing the page the club can contact and reach the person who showed the interest.
+
+__Footer__
+
+Footer should be visible on the each page and includes The Ski Club details, social networks,  provides access to weather podcast and live cameras for users comfort.
 
 #### "About US" Page
 
@@ -113,12 +120,27 @@ It takes users to the pages: About Us, Services, Gallery, and Become a member.
 - The current project has many options tor further development.
 - It could be useful to add the map of Tignes.
 - Could be benefitial to add a section with feedback and reccomendations.
-- 
+  
+
+# Technologies 
+In the current project were used next technologies and apps: 
+- Github [link](https://github.com/)
+- Codeanywhere [link](https://app.codeanywhere.com/)
+- Google fonts [link](https://fonts.google.com/)
+- Font awesome website [link](https://fontawesome.com/)
+- My Color Space [link](https://mycolor.space/?hex=%238057C7&sub=1)
+- MDN Web docs [link](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- IMGBB [link](https://imgbb.com/)
+- Am I responsive? [link](https://ui.dev/amiresponsive)
+- WC3 Validator for HTML [link](https://validator.w3.org/)
+- WC3 Validator for CSS [link] (<https://jigsaw.w3.org/css-validator/>)
+
+
 
 # Testing
 
-Project funcrionality testing:
-- 
+Testing information can be found [here](TESTING.md)
+
 
 
 
