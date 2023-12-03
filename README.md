@@ -100,7 +100,7 @@ Footer should be visible on the each page and includes The Ski Club details, soc
 
 #### "Gallery" Page
 
- ![Gallery](https://i.ibb.co/FW7jK0q/Gallery-pic.png)
+ ![Gallery](https://i.ibb.co/M1H8s5P/Gallery.png)
 
 - Gallery page brings visual benefit to the project.
 - Users have a chance to see skiers enjoy their time, night city, festivals, and that might help them to make their decision.
@@ -150,27 +150,50 @@ It was uploaded from GitHub Pages by following next steps:
 
 1. In the GitHub navigate to **repositories**.
 2. From repositories pick name of the project to deploy.
-3. On the top of the page , navigate to the **Settings** Option.
-4. From the left site, appear list of options - click on **Pages**
-5. After 
-6. 
+3. On the top of the page , navigate to the **Settings**.
+4. On the left, can be found a list of options - select and click **Pages**
+5. On **GitHub Pages**, under the section **Build and deployment**, the Source should be picked __"Deploy from branch"__. THe Branch should be set to __**main**__, and Folder to __**/root**__. Press "Save".
+6. Wait 2-5 mins to allow code to be refreshed and build the page.
+7. Navigate back to **Code** tab, and from the right-hand side pick **"github-pages"**.
+8. Pick the latest deployment, and click on the sqare with an arrow looking tothe top right corner.  That will allow to see the live website.
 
 
+# Cloaning 
+This project can be cloned by following next steps: 
 
+- copy the git clone `https://github.com/maxgray7-dev/ski-club_project.git` into terminal.
+- to delete this project type in terminal ` git remote rm original`
 
+# Forking
+    Forking allows to make a copy of the project and edit it without risk to original repo.
+    Forking can be completed by few steps, such as:
+- Open your GitHub Account. 
+- Find Repositiory to copy.
+- at the top right of the screen,  can b seen a button "Fork". Select and Click.
 
+All changes pushed to the main branch will be reflected on the site.
 
+## Credits
 
-
-
-## Sources
-
+The Project has been designed by maksim Popov.
+There are pictures that were taken from sources listed below:
 Picture Sources:
 
 - About us [source](https://www.skiworld.co.uk/blog/useful-tips-for-booking-your-family-ski-holiday/)
 - Services [source](https://www.ifyouski.com/ski-resorts/france/tignes)
-- Gallery [source](https://www.ifyouski.com/ski-resorts/france/tignes)
+- Gallery picture came from several sources [source 1](https://www.ifyouski.com/ski-resorts/france/tignes)
 - [source 2](https://skivertigo.co.uk/tignes/#image-gallery-3)
 - [source 3](https://www.crystalski.co.uk/ski-resorts/france-ski-holidays/tignes/)
 - Become a member [source](https://www.cgh-residences.co.uk/photos/domaines/sliders/espace-killy-1_66.webp)
 - Footer [source](https://skivertigo.co.uk/tignes/#image-gallery-7)
+
+
+# Code 
+This is my first experience in coding my own webpage. This was a challenging project but also very interesting with a lot of new approaches to learn. During work on this project I learned how to use HTML and CSS computer languages. To complete this peoject I got support from Code Institute, and used Love Running Project to guide me in some questions.
+Nevertheless, in the moments when I faced difficulties and tried to find right answers I felt great support that was shown to me by my mentor Chris Quinn. You have my big gratitude for your support and wise support how  Ican improve mu code. 
+
+# Acknowledgement. 
+
+I would like to express my sincere gratitude to my mentor - Chris Quinn, who supported me during this project. He helped me with suggestions, feedback and answering incredible difficult to me questions. He made my work much less stressful and helped me to believe in my capabilities. 
+Additionally I would like to thank Code Institute for providing great learning material, that helped me to complete the project and gave opportunity to practice and implement gathered skills on practice. 
+Also I would like to express massive gratitude to the team od students that I met during my first Hackaton: Craig Thomasson, Stefania Frustagli, Nick Moore. Especially I would like to say thank you to Stefania, with whom we were working for Readme file andshe helped me to understand what means to have a good readme file. I also grateful to Stefania, as she provided me with some examples that I used during writing my project. Thank you.
