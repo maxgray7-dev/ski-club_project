@@ -20,7 +20,7 @@ Members of club benefit from cheaper prices on trips, meet with ski and snowboar
 
 ## User Experience
 
-###  Ideal User
+### Ideal User
 
 - The ideal user would have a hobby for skiing, snowboarding or both and like to travel to ski in different locations.
 - Also it can be any persone who interested to start learning, or looking to improve skills in ski/snowboarding sport but also would like to feel some support.
@@ -57,7 +57,7 @@ For better visual support, I used the Balsamiq wireframe software to build a sim
 
 - [About us](https://i.ibb.co/CQQ6qYr/About-Us.png)
 - [Services](https://i.ibb.co/b7jY7RB/Services.png)
-- [Become a member](https://i.ibb.co/9mXC2c9/Become-a-member.png)
+- [Become a member](https://i.ibb.co/x89hpm9/Become-a-member.png)
   
 # Features
 
@@ -82,7 +82,7 @@ It takes users to the pages: About Us, Services, Gallery, and Become a member.
 - The About Us page helps users to navigate through website. On this page user can see visual representation of the club. The page has attractive picture with the family thay enjoy skiing. The picture indicates a family on it, and that members of the club can be different ages and even families.
 - About Us Page has a navigation bar that located in the right top corner of the screen, tha will allow users to move between pages when they look for information about the club.
 - This page also includes information about club, and the coming next trips.
-- In the bottom of the page placed the footer with address, social network links and 2 buttons that would help users to check the weather or watch live camera to see the mountains. These buttons might be very helpful for users to check weather before starting any activities during their day on resort, and additionally it benefits to the website because it could bring additional users daily on our website to check forecast regularly.
+- In the bottom of the page placed the footer with address, social network links and 2 buttons that wouldve camera to see the mountains. These buttons might be very helpful for users to check weather before starting any activities during their day on resort, and additionally it benefits to the website because it could bring additional users daily on our website to check forecast regularly.
 
 #### "Services" Page
 
@@ -92,18 +92,39 @@ It takes users to the pages: About Us, Services, Gallery, and Become a member.
 - It helps users to find additional benefits and motivate them to join the club.
 
 #### "Gallery" Page
+
  ![Gallery](https://i.ibb.co/FW7jK0q/Gallery-pic.png)
- - Gallery page brings visual benefit to the project.
- - Users have a chance to see skiers enjoy their time, night city, festivals, and that might help them to make their decision.
+
+- Gallery page brings visual benefit to the project.
+- Users have a chance to see skiers enjoy their time, night city, festivals, and that might help them to make their decision.
 
 #### "Become a member" Page
- ![Become a member](https://i.ibb.co/GcHmtmh/Become-a-member.png)
-- This section allows users to request membership. Here users can fill up fields with basic information, such as: name, surname, e-mail. Radio buttons provide information regarding users preferences to skiing, snowboarding or both options. That would help organisators to provide capacity and predict equipment demand.
+
+ ![Become a member](https://i.ibb.co/KDvkfHM/signup.png)
+
+- This section invites users to request membership. Interested in skiing or snowboarding users can fill up fields with basic information to request membership.
+-  Radio buttons provide information regarding users preferences to skiing, snowboarding or both options. That would help organisators to provide capacity and predict equipment demand.
+- To complete the form required to fill up all fileds.
+- Information will bne shared with the SKI CLUB and they email users with desision and further instructions.
 
 
--
 
 ### Future improvements left to implement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Sources
 
