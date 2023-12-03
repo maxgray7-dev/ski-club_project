@@ -41,7 +41,9 @@ On the first Pages Validator showed next errors :
    However, it seems this did not solve the issue. <br>
 4. Another Warning, was in regards that the code has lack of heading.
    Solution: Created another heading **h3** and set as a hidden one. The issue has been fixed.<br>
-5. Gallery Section - Incorrect placement of size for favicon [Error 5](https://i.ibb.co/q5Sg32k/Error-5.png)
-    Solution: placed correctly the size for icon and checked other html pages to avoid this in future.<br>
-6
+5. Gallery Section - Incorrect placement of size measurement for favicon [Error 5](https://i.ibb.co/q5Sg32k/Error-5.png)
+    Solution: placed it correctly and checked other html pages to avoid this issue in the future.<br>
+6. Error in Services page - lack of heading. [Error 6](https://i.ibb.co/RT1Rmwp/Error-6.png)
+   Solution added heading. As occured the page looked better with the heading, therefore **h1** element has been used for advertising equippment. <br>
+7. 
    
