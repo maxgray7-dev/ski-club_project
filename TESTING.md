@@ -39,5 +39,9 @@ On the first Pages Validator showed next errors :
 3. Error - The element **a** placed incorrectly in **button** element.[Error 3](https://i.ibb.co/K9fnHyJ/error-3.png)
    Solution: Updated code, and placed **button** inside anchor element. 
    However, it seems this did not solve the issue. <br>
-4. Another Warning, was in regards that my code lack of heading.
-   Solution: I created another heading **h3** and set it hidden. This fixed the issues.
+4. Another Warning, was in regards that the code has lack of heading.
+   Solution: Created another heading **h3** and set as a hidden one. The issue has been fixed.<br>
+5. Gallery Section - Incorrect placement of size for favicon [Error 5](https://i.ibb.co/q5Sg32k/Error-5.png)
+    Solution: placed correctly the size for icon and checked other html pages to avoid this in future.<br>
+6
+   
